@@ -1,0 +1,19 @@
+p {
+    color: #e0e342;
+    font: 12pt sans-serif;
+    text-align: center
+}
+
+body {
+    background: url(https://funart.pro/uploads/posts/2021-04/1618539910_10-funart_pro-p-oboi-fon-chernii-fon-s-uzorami-10.jpg);
+}
+
+input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.dada {
+    text-align: left;
+}

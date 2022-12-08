@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+  function maxval (obj )
+    {var a = obj.num1.value;
+     var m=a
+     obj.res.value=m}
+    </script>
+</head>
+<body>
+  <script src="C:\Users\imace\Desktop\новый проект\JAJA.js"></script>
+
+<FORM name="form1"><p>Введите ФИО:<input placeholder="Иванов Иван Иванович" type="text" size="21" id="FIO" name="num1"><br></p><hr color="yellow" size="2" width="600"></FORM>
+<p>Ваш пол:</p><form>
+    <label><p><input type="radio" name="Sex" value="Man" id="MALE">Мужской</p></label>
+    <label><p><input type="radio" name="Sex" value="Woman" id="FEMALE">Женский</p></label>
+</form>
+<hr color="yellow" size="2" width="600">
+<p>Ваш возраст:<input type="number" min="1" max="+50" step="any" value="10" id="AGE"><br></p>
+<form><p>Дата рождения:<label>
+<input type="date" name="my-date" min="2022-10-31" id="DATE">
+  </label>
+</form></p>
+<p><form> 
+  <p>Email: <input type="email" name="login" id="EMAIL"></p>
+ </form>
+  <p>Семейное положение<input type="text" list="list" id="BROO">
+  <datalist id="list">
+    <option value="женат" id="yesyes">
+    <option value="не женат" id="no">
+</datalist></p>
+  <p> <p>Номер телефона:<input placeholder="8-800-555-35-35" size="13" id="PHONE"></p></p>
+</form>
+<br>
+<p><button onclick="check()">Принять</button></p>
+
+
+ <br><br>
+<p class="dada"> Сведения: </p> 
+<input type="button" value=Определить onClick="maxval(form1)">
+<input type="text"   size=8 name="res">
+</body>
+</html>
+
